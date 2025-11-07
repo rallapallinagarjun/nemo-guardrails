@@ -10,10 +10,10 @@ models:
 rails:
   input:
     flows: []
-  #    - content safety check input $model=content_safety
+    #  - content safety check input $model=content_safety
   output:
     flows: []
-  #   - content safety check output $model=content_safety
+    #  - content safety check output $model=content_safety
     streaming:
       enabled: True
       chunk_size: 200
