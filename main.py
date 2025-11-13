@@ -3,8 +3,8 @@ from nemoguardrails import LLMRails, RailsConfig
 import pathlib
 import asyncio
  
-os.environ["API_KEY"] = "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"
-os.environ["NVIDIA_API_KEY"] = "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"
+os.environ["API_KEY"] = ""
+os.environ["NVIDIA_API_KEY"] = ""
 config_path = "config"
  
 if not pathlib.Path(config_path).exists():
